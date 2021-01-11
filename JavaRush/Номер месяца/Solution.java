@@ -9,6 +9,8 @@ import java.util.List;
 
 /* 
 Номер месяца
+Программа вводит с клавиатуры имя месяца и выводит его номер на экран в виде: "May is the 5 month".
+Используй коллекции.
 */
 
 public class Solution {
@@ -32,6 +34,5 @@ public class Solution {
        if (list.contains(month))
            System.out.println(month + " is the " + (list.indexOf(month) + 1) + " month");
 
-        //напишите тут ваш код
     }
 }
