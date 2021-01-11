@@ -1,0 +1,39 @@
+package com.javarush.task.task13.task1326;
+
+import java.io.*;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+import java.util.Scanner;
+
+/* 
+Сортировка четных чисел из файла
+*/
+
+public class Solution {
+    public static void main(String[] args) throws IOException {
+        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+        FileInputStream input = new FileInputStream(reader.readLine());
+        BufferedReader readerFile = new BufferedReader(new InputStreamReader(input));
+
+        ArrayList<Integer> list = new ArrayList<>();
+        while (readerFile.ready()){
+            int a = Integer.parseInt(readerFile.readLine());
+            if (a %2 == 0){
+                list.add(a);
+            }
+        }
+        reader.close();
+        readerFile.close();
+
+        Collections.sort(list);
+        for (int asd : list)
+            System.out.println(asd);
+
+
+
+
+
+        // напишите тут ваш код
+    }
+}
