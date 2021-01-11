@@ -6,6 +6,10 @@ import java.io.InputStreamReader;
 
 /* 
 Минимаксы в массивах
+Создать массив на 20 чисел.
+Заполнить его числами с клавиатуры.
+Найти максимальное и минимальное числа в массиве.
+Вывести на экран максимальное и минимальное числа через пробел.
 */
 
 public class Solution {
@@ -22,7 +26,6 @@ public class Solution {
                 minimum = list[i];
             }
         }
-        //напишите тут ваш код
 
         System.out.print(maximum + " " + minimum);
     }
@@ -34,5 +37,5 @@ public class Solution {
             list[i] = Integer.parseInt(reader.readLine());
         }
         return list;
-    } //напишите тут ваш код
+    }
 }
