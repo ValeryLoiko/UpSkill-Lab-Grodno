@@ -5,6 +5,13 @@ import java.util.Set;
 
 /* 
 Множество всех животных
+1. Внутри класса Solution создать public static классы Cat, Dog без конструктора или с конструктором без параметров.
+2. Реализовать метод createCats, который должен возвращать множество с 4 котами.
+3. Реализовать метод createDogs, который должен возвращать множество с 3 собаками.
+4. Реализовать метод join, который должен возвращать объединенное множество всех животных - всех котов и собак.
+5. Реализовать метод removeCats, который должен удалять из множества pets всех котов, которые есть в множестве cats.
+6. Реализовать метод printPets, который должен выводить на экран всех животных, которые в нем есть.
+Каждое животное с новой строки.
 */
 
 public class Solution {
@@ -30,8 +37,6 @@ result.add(cat2);
 result.add(cat3);
 result.add(cat4);
 
-        //напишите тут ваш код
-
         return result;
     }
 
@@ -43,7 +48,7 @@ result.add(cat4);
        dogs.add(dog1);
        dogs.add(dog2);
        dogs.add(dog3);
-        //напишите тут ваш код
+
         return dogs;
     }
 
@@ -51,7 +56,7 @@ result.add(cat4);
        Set<Object> pats = new HashSet<Object>();
        pats.addAll(cats);
        pats.addAll(dogs);
-        //напишите тут ваш код
+
         return pats;
     }
 
@@ -62,13 +67,13 @@ result.add(cat4);
 //               pats.remove(a);
 //       }
         pets.removeAll(cats);
-        //напишите тут ваш код
+
     }
 
     public static void printPets(Set<Object> pets) {
        for (Object a : pets)
            System.out.println(a);
-        //напишите тут ваш код
+
     }
 
     public static class Cat{
@@ -77,5 +82,5 @@ result.add(cat4);
     public static class Dog{
 
     }
-    //напишите тут ваш код
+
 }
