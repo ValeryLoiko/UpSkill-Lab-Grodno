@@ -4,6 +4,10 @@ import java.io.*;
 
 /* 
 Писатель в файл с консоли
+В этой задаче тебе нужно:
+Прочесть с консоли имя файла.
+Считывать строки с консоли, пока пользователь не введет строку "exit".
+Вывести абсолютно все введенные строки в файл, каждую строчку — с новой строки.
 */
 
 public class Solution {
@@ -22,17 +26,13 @@ public class Solution {
                         break;
                     }
                 }
-
-
-
-
-
         }
+        
 catch (IOException e){
             e.printStackTrace();
 }
 
-        // напишите тут ваш код
+
         // /Users/diana/Desktop/obu4enie/src/diana
     }
 }
