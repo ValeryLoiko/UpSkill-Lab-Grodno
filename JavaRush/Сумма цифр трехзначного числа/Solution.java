@@ -2,6 +2,14 @@ package com.javarush.task.task01.task0132;
 
 /* 
 Сумма цифр трехзначного числа
+Напиши код метода sumDigitsInNumber(int number). Метод на вход принимает целое трехзначное число. Нужно посчитать сумму цифр этого числа, и вернуть эту сумму.
+
+Пример:
+Метод sumDigitsInNumber вызывается с параметром 546.
+
+Пример вывода:
+15
+
 */
 
 public class Solution {
@@ -15,6 +23,5 @@ public class Solution {
         int d = number - (a*100+b*10);
         int c = a + b + d;
         return c;
-        //напишите тут ваш код
     }
 }
