@@ -5,6 +5,8 @@ import java.io.InputStreamReader;
 
 /* 
 Сортировка трех чисел
+Ввести с клавиатуры три числа, и вывести их в порядке убывания.
+Выведенные числа должны быть разделены пробелом.
 */
 
 public class Solution {
@@ -26,9 +28,6 @@ public class Solution {
          else min = c;
          int mid = a+b+c - (max +min);
         System.out.println(max + " " + mid + " " + min);
-
-
-        //напишите тут ваш код
 
     }
 }
