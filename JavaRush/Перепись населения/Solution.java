@@ -6,6 +6,8 @@ import java.util.Map;
 
 /* 
 Перепись населения
+Создать словарь (Map<String, String>) занести в него десять записей по принципу "Фамилия" - "Имя".
+Проверить сколько людей имеют совпадающие с заданным именем или фамилией.
 */
 
 public class Solution {
@@ -22,7 +24,7 @@ public class Solution {
         list.put("W","WW");
         list.put("F","AA");
         return list;
-        //напишите тут ваш код
+
     }
 
     public static int getCountTheSameFirstName(Map<String, String> map, String name) {
@@ -35,7 +37,7 @@ public class Solution {
                 i++;
         }
         return i;
-        //напишите тут ваш код
+
     }
 
     public static int getCountTheSameLastName(Map<String, String> map, String lastName) {
@@ -49,7 +51,6 @@ public class Solution {
                 j++;
         }
         return j;
-        //напишите тут ваш код
 
     }
 
