@@ -6,6 +6,9 @@ import java.util.List;
 
 /* 
 Собираем семейство
+1. Создай класс Human с полями имя (String), пол (boolean), возраст (int), дети (ArrayList<Human>).
+2. Создай объекты и заполни их так, чтобы получилось: два дедушки, две бабушки, отец, мать, трое детей.
+3. Выведи все объекты Human на экран (Подсказка: используй метод toString() класса Human).
 */
 
 public class Solution {
@@ -32,9 +35,6 @@ public class Solution {
         System.out.println(child2);
         System.out.println(child3);
 
-
-
-       //напишите тут ваш код
     }
 
     public static class Human  {
@@ -55,8 +55,6 @@ public class Solution {
            Collections.addAll(this.children,children);
 
         }
-
-        //напишите тут ваш код
 
         public String toString() {
             String text = "";
