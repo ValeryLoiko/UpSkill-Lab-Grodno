@@ -5,6 +5,9 @@ import java.io.InputStreamReader;
 
 /* 
 Как-то средненько
+Ввести с клавиатуры три числа, вывести на экран среднее из них.
+Т.е. не самое большое и не самое маленькое.
+Если все числа равны, вывести любое из них.
 */
 
 public class Solution {
@@ -31,8 +34,6 @@ public class Solution {
        else min = r;
        mid = a+b+c - (max+min);
         System.out.println(mid);
-
-        //напишите тут ваш код
 
     }
 }
