@@ -2,6 +2,12 @@ package com.javarush.task.task13.task1320;
 
 /* 
 Neo
+В этой задаче тебе нужно:
+Реализовать интерфейс DBObject в классе User.
+Реализовать метод initializeIdAndName так, чтобы программа работала и выводила на экран: "The user's name is Neo, id = 1".
+Метод toString и метод main менять нельзя.
+Подумать, что должен возвращать метод initializeIdAndName в классе User.
+Обрати внимание: методы toString() и main() менять нельзя.
 */
 
 public class Solution {
