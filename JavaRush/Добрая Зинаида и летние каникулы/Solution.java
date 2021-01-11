@@ -7,6 +7,8 @@ import java.util.*;
 
 /* 
 Добрая Зинаида и летние каникулы
+Создать словарь (Map<String, Date>) и занести в него десять записей по принципу: "фамилия" - "дата рождения".
+Удалить из словаря всех людей, родившихся летом.
 */
 
 public class Solution {
@@ -25,7 +27,6 @@ public class Solution {
         map.put("C", dateFormat.parse("JUNE 1 2012"));
 
         return map;
-        //напишите тут ваш код
     }
 
     public static void removeAllSummerPeople(Map<String, Date> map) throws ParseException {
@@ -41,8 +42,6 @@ public class Solution {
 
 
         }
-        //напишите тут ваш код
-
     }
 
     public static void main(String[] args) {
