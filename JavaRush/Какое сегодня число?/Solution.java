@@ -9,6 +9,9 @@ import java.util.Locale;
 
 /* 
 Какое сегодня число?
+Ввести с клавиатуры дату в формате "2013-08-18"
+Вывести на экран введенную дату в виде "AUG 18, 2013".
+Воспользоваться объектом Date и SimpleDateFormat.
 */
 
 public class Solution {
@@ -21,7 +24,5 @@ public class Solution {
 
         SimpleDateFormat dataJava = new SimpleDateFormat("MMM d, yyyy", Locale.ENGLISH);
         System.out.println(dataJava.format(d).toUpperCase());
-
-        //напишите тут ваш код
     }
 }
