@@ -4,6 +4,9 @@ import java.util.ArrayList;
 
 /* 
 Список из массивов чисел
+Создать список, элементами которого будут массивы чисел.
+Добавить в список пять объектов-массивов длиной 5, 2, 4, 7, 0 соответственно.
+Заполнить массивы любыми данными и вывести их на экран.
 */
 
 public class Solution {
@@ -26,7 +29,6 @@ public class Solution {
         list.add(e);
         return list;
 
-        //напишите тут ваш код
     }
 
     public static void printList(ArrayList<int[]> list) {
